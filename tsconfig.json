@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "incremental": true,
+      "target": "es2017",
+      "module": "commonjs",
+      "lib": ["es2017"],
+      "types": ["node"],
+      "outDir": "./tests",
+      "rootDir": "./",
+      "declaration": true,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "strictNullChecks": false,
+      "typeRoots": ["./typings"],
+      "resolveJsonModule": true
+    },
+    "include": [
+      "src/**/*"
+
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
